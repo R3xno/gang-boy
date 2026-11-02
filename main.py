@@ -10,7 +10,7 @@ import db, imaging
 from pokedata import (MAX_ID, LEGENDARY_IDS, NATURES, STAT_NAMES, TYPE_EMOJI, art_bytes, calc_stats,
                       exp_for_level, get_move, get_poke, ideal_nature, moves_at_level, slug_name)
 
-TOKEN = "7422247259:AAFKNQX22FsPRbjcCCR0MXlTssyBsDM0aj4"
+TOKEN = os.environ["BOT_TOKEN"]
 HTML = ParseMode.HTML
 esc = html.escape
 
